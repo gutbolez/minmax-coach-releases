@@ -12,6 +12,8 @@ Real-time draft help, lane-matchup coaching, build paths, objective timers, and 
 
 I love this game, but I got tired of the tools around it. The best coaching info is locked behind monthly subscriptions. The popular overlays are heavy, ad-stuffed, and want you to create an account so they can harvest your data. And a few of them quietly put your account at risk by reading things they shouldn't.
 
+On top of that, modern apps have gotten absurd — hundreds of megabytes, slow to open, and so resource-hungry that if you don't have a strong PC you can't even run them without your game stuttering. For a League tool that's backwards: the last thing you want is an overlay eating the frames you need to play. So I built this in **Rust** — the whole app is about 3 MB, it opens instantly, and it uses so little memory and CPU you'll forget it's running. It runs fine on a potato.
+
 I also believe climbing isn't a secret. I was able to get to Diamond from just basic fundamentals and decisions. A Challenger player isn't seeing hidden information — they're reading the **same public information you already have**, and making the right call a half-second sooner. *Recall on this wave. Group for this drake. Build this item into their comp.* That's learnable.
 
 So I built the coach I always wanted: one that reads the public game state alongside you and tells you the next right move, in the moment — and gives it away **free, forever**, with nothing sketchy under the hood. No account. No ads. No data leaving your PC. Nothing that can get you banned.
@@ -25,7 +27,7 @@ If it helps even a few people climb, it was worth building.
 | **Price** | Free — *every* feature | Best features behind a subscription |
 | **Account** | None — just run it | Sign-up + login required |
 | **Your data** | Stays on your PC | Often uploaded / harvested |
-| **Footprint** | ~3 MB, zero ads | Heavy, ad-stuffed |
+| **Footprint** | ~3 MB · won't touch your FPS | Hundreds of MB · can tank your frames |
 | **Safety** | Public data only — can't get you banned | Some risk your account |
 | **What it gives** | Real-time **decisions**, not just stats | Mostly stat dashboards |
 
