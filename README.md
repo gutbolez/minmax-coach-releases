@@ -56,6 +56,18 @@ Everything runs locally on your machine. See **[PRIVACY.md](PRIVACY.md)**.
 
 **Requirements:** Windows 10/11.
 
+## Is the download safe? Verify it yourself
+
+Because the app is new and not yet code-signed, Windows SmartScreen shows an "unrecognized publisher" warning — that means *unrecognized*, not *unsafe*. New indie apps almost always trip it. Don't just take my word for it, though:
+
+- **VirusTotal** (scanned by ~70 antivirus engines): **[view the scan](https://www.virustotal.com/gui/file/eca06e997fd2b1ec1b99e6c4535f32521b130953959c269c3482bf569ba280aa)**. It's clean on every major engine — Microsoft, Kaspersky, Bitdefender, ESET, Sophos, CrowdStrike, Malwarebytes, and more. One minor engine (SecureAge) flags it, which is a known false positive on unsigned apps: it whitelists "known" software and flags anything new by default.
+- **Confirm the file is the real one** — the v0.1.0 installer's SHA-256 is:
+  `ECA06E997FD2B1EC1B99E6C4535F32521B130953959C269C3482BF569BA280AA`
+  Check it in PowerShell: `Get-FileHash .\Min-Max-Coach-0.1.0-setup.exe`
+- **What it does with your data:** nothing leaves your PC — no account, no telemetry, no uploads. See **[PRIVACY.md](PRIVACY.md)**.
+
+The source is closed (it's my own work), so there's some trust involved — I won't pretend otherwise. Code-signing, which removes the warning entirely, is on the list as the project grows.
+
 ## Free, forever
 
 This is and always will be free — every feature, no paywall. If it helps you climb and you'd like to support development, donations are welcome (link coming soon), but they're never required.
