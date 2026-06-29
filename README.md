@@ -8,6 +8,27 @@ Real-time draft help, lane-matchup coaching, build paths, objective timers, and 
 
 ---
 
+## Why I built this
+
+I love this game, but I got tired of the tools around it. The best coaching info is locked behind monthly subscriptions. The popular overlays are heavy, ad-stuffed, and want you to create an account so they can harvest your data. And a few of them quietly put your account at risk by reading things they shouldn't.
+
+I also believe climbing isn't a secret. A Challenger player isn't seeing hidden information — they're reading the **same public information you already have**, and making the right call a half-second sooner. *Recall on this wave. Group for this drake. Build this item into their comp.* That's learnable.
+
+So I built the coach I always wanted: one that reads the public game state alongside you and tells you the next right move, in the moment — and gives it away **free, forever**, with nothing sketchy under the hood. No account. No ads. No data leaving your PC. Nothing that can get you banned.
+
+If it helps even a few people climb, it was worth building.
+
+## What makes it different
+
+| | **Min-Max Coach** | Typical overlays |
+|---|---|---|
+| **Price** | Free — *every* feature | Best features behind a subscription |
+| **Account** | None — just run it | Sign-up + login required |
+| **Your data** | Stays on your PC | Often uploaded / harvested |
+| **Footprint** | ~3 MB, zero ads | Heavy, ad-stuffed |
+| **Safety** | Public data only — can't get you banned | Some risk your account |
+| **What it gives** | Real-time **decisions**, not just stats | Mostly stat dashboards |
+
 ## What it does
 
 - **Champ select** — team-comp read, counter picks, ban suggestions, and a rune/summoner tip for your pick.
