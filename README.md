@@ -60,9 +60,11 @@ Everything runs locally on your machine. See **[PRIVACY.md](PRIVACY.md)**.
 
 This is and always will be free — every feature, no paywall. If it helps you climb and you'd like to support development, donations are welcome (link coming soon), but they're never required.
 
-## Feedback
+## All I ask is your feedback
 
-Found a bug or have an idea? **[Open an issue](../../issues)** — feedback shapes what gets built next.
+I'm trying to make this the best League coach out there, and the only thing I want in return is your help making it better. If you have a few seconds, **tell me what you liked, what's missing, or what broke** — that's exactly what shapes the next version.
+
+→ **[Open an issue](../../issues)** with a bug or an idea. Anything helps, and it's genuinely appreciated.
 
 ---
 
