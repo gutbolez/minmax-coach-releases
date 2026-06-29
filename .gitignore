@@ -1,0 +1,4 @@
+# Installers are published as GitHub Release assets, not committed to the repo.
+*.exe
+*.msi
+*.zip

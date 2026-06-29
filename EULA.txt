@@ -1,0 +1,39 @@
+MIN-MAX COACH — END USER LICENSE AGREEMENT
+
+Copyright (c) 2026 Ryan Perez. All rights reserved.
+
+This is proprietary freeware. By installing or using Min-Max Coach ("the
+Software"), you agree to the following terms.
+
+1. LICENSE GRANT
+   You are granted a free, personal, non-exclusive, non-transferable license to
+   install and use the Software for your own personal, non-commercial use.
+
+2. RESTRICTIONS
+   You may NOT:
+   (a) sell, rent, sublicense, or otherwise distribute the Software or charge
+       others for access to it;
+   (b) reverse-engineer, decompile, disassemble, or attempt to derive the source
+       code of the Software, except to the extent this restriction is prohibited
+       by applicable law;
+   (c) modify, adapt, or create derivative works of the Software;
+   (d) remove or alter any copyright, trademark, or other proprietary notices.
+
+3. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE AUTHOR IS NOT
+   LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE
+   SOFTWARE.
+
+4. RIOT GAMES
+   Min-Max Coach is NOT endorsed by, affiliated with, or sponsored by Riot Games,
+   Inc. "League of Legends" and "Riot Games" are trademarks or registered
+   trademarks of Riot Games, Inc. The Software uses only official, publicly
+   available Riot interfaces (the Live Client Data API and the local League
+   Client API) and the public Data Dragon CDN. It does not read game memory,
+   inject code, automate the client, or surface hidden opponent information.
+
+5. TERMINATION
+   This license terminates automatically if you breach any of its terms. On
+   termination you must stop using and delete all copies of the Software.
