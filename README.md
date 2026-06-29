@@ -6,8 +6,6 @@ Real-time draft help, lane-matchup coaching, build paths, objective timers, and 
 
 ### [⬇ Download the latest version](../../releases/latest)
 
----
-
 ## Why I built this
 
 I love this game, but I got tired of the tools around it. The best coaching info is locked behind monthly subscriptions. The popular overlays are heavy, ad-stuffed, and want you to create an account so they can harvest your data. And a few of them quietly put your account at risk by reading things they shouldn't.
@@ -77,7 +75,5 @@ This is and always will be free — every feature, no paywall. If it helps you c
 I'm trying to make this the best League coach out there, and the only thing I want in return is your help making it better. If you have a few seconds, **tell me what you liked, what's missing, or what broke** — that's exactly what shapes the next version.
 
 → **[Open an issue](../../issues)** with a bug or an idea. Anything helps, and it's genuinely appreciated.
-
----
 
 <sub>Min-Max Coach is not endorsed by or affiliated with Riot Games. "League of Legends" and "Riot Games" are trademarks of Riot Games, Inc. © 2026. Licensed under [EULA.txt](EULA.txt).</sub>
