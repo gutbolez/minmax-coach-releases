@@ -12,7 +12,7 @@ Real-time draft help, lane-matchup coaching, build paths, objective timers, and 
 
 I love this game, but I got tired of the tools around it. The best coaching info is locked behind monthly subscriptions. The popular overlays are heavy, ad-stuffed, and want you to create an account so they can harvest your data. And a few of them quietly put your account at risk by reading things they shouldn't.
 
-I also believe climbing isn't a secret. A Challenger player isn't seeing hidden information — they're reading the **same public information you already have**, and making the right call a half-second sooner. *Recall on this wave. Group for this drake. Build this item into their comp.* That's learnable.
+I also believe climbing isn't a secret. I was able to get to Daimond from just basic fundamentals and decisions. A Challenger player isn't seeing hidden information — they're reading the **same public information you already have**, and making the right call a half-second sooner. *Recall on this wave. Group for this drake. Build this item into their comp.* That's learnable.
 
 So I built the coach I always wanted: one that reads the public game state alongside you and tells you the next right move, in the moment — and gives it away **free, forever**, with nothing sketchy under the hood. No account. No ads. No data leaving your PC. Nothing that can get you banned.
 
