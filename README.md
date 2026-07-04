@@ -1,10 +1,12 @@
 # Min-Max Coach
 
-**A free, lightweight League of Legends coach that runs alongside your game — and can't get you banned.**
+**A free, lightweight League of Legends coach that runs alongside your game — and does none of the things Riot bans accounts for.**
 
 Real-time draft help, lane-matchup coaching, build paths, objective timers, and a post-game "climb plan" — in a ~3 MB app with **no account, no ads, no API key, and nothing that ever leaves your PC.**
 
 ### [⬇ Download the latest version](../../releases/latest)
+
+**[💬 Join the Discord](https://discord.gg/RXK9YhKQGX)** — questions, feedback, and update news. The app updates itself silently, so what you install today keeps getting better every week.
 
 ## Why I built this
 
@@ -26,7 +28,7 @@ If it helps even a few people climb, it was worth building.
 | **Account** | None — just run it | Sign-up + login required |
 | **Your data** | Stays on your PC | Often uploaded / harvested |
 | **Footprint** | ~3 MB · won't touch your FPS | Hundreds of MB · can tank your frames |
-| **Safety** | Public data only — can't get you banned | Some risk your account |
+| **Safety** | No automation, no memory reading, no hidden info | Some risk your account |
 | **What it gives** | Real-time **decisions**, not just stats | Mostly stat dashboards |
 
 ## What it does
@@ -35,9 +37,9 @@ If it helps even a few people climb, it was worth building.
 - **In game (overlay)** — your next macro move, lane matchup + who has priority, the exact next item to buy, and dragon/baron/herald/grub timers, all on a movable overlay.
 - **Between games** — performance trends, a focused **climb plan**, and progress toward your rank goal.
 
-## Why it's safe — it can't get you banned
+## Why it's safe
 
-Min-Max Coach uses **only official, public Riot interfaces** (the in-game Live Client Data API and the local League Client API) plus public Data Dragon data. It does **not**:
+Min-Max Coach does **none of the things Riot bans accounts for**. It reads only official, public Riot interfaces (the in-game Live Client Data API and the local League Client API) plus public data. It does **not**:
 
 - read game memory or inject code,
 - automate your client (it only ever *recommends* — never auto-accepts, picks, or dodges),
@@ -74,6 +76,6 @@ This is and always will be free — every feature, no paywall. If it helps you c
 
 I'm trying to make this the best League coach out there, and the only thing I want in return is your help making it better. If you have a few seconds, **tell me what you liked, what's missing, or what broke** — that's exactly what shapes the next version.
 
-→ **[Open an issue](../../issues)** with a bug or an idea. Anything helps, and it's genuinely appreciated.
+→ **[Join the Discord](https://discord.gg/RXK9YhKQGX)** and tell me directly, or **[open an issue](../../issues)** with a bug or an idea. Anything helps, and it's genuinely appreciated.
 
 <sub>Min-Max Coach is not endorsed by or affiliated with Riot Games. "League of Legends" and "Riot Games" are trademarks of Riot Games, Inc. © 2026. Licensed under [EULA.txt](EULA.txt).</sub>
