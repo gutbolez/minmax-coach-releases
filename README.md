@@ -60,10 +60,11 @@ Everything runs locally on your machine. See **[PRIVACY.md](PRIVACY.md)**.
 
 Because the app is new and not yet code-signed, Windows SmartScreen shows an "unrecognized publisher" warning — that means *unrecognized*, not *unsafe*. New indie apps almost always trip it. Don't just take my word for it, though:
 
-- **VirusTotal** (scanned by ~70 antivirus engines): **[view the scan](https://www.virustotal.com/gui/file/eca06e997fd2b1ec1b99e6c4535f32521b130953959c269c3482bf569ba280aa)**. It's clean on every major engine — Microsoft, Kaspersky, Bitdefender, ESET, Sophos, CrowdStrike, Malwarebytes, and more. One minor engine (SecureAge) flags it, which is a known false positive on unsigned apps: it whitelists "known" software and flags anything new by default.
-- **Confirm the file is the real one** — the v0.1.0 installer's SHA-256 is:
-  `ECA06E997FD2B1EC1B99E6C4535F32521B130953959C269C3482BF569BA280AA`
-  Check it in PowerShell: `Get-FileHash .\Min-Max-Coach-0.1.0-setup.exe`
+- **VirusTotal** (scanned by ~70 antivirus engines): the v0.1.0 installer **[scanned clean](https://www.virustotal.com/gui/file/eca06e997fd2b1ec1b99e6c4535f32521b130953959c269c3482bf569ba280aa)** on every major engine — Microsoft, Kaspersky, Bitdefender, ESET, Sophos, CrowdStrike, Malwarebytes, and more. (One minor engine, SecureAge, flags unsigned apps by default — a known false positive.) You can drop any release's installer on virustotal.com yourself; it takes a minute.
+- **Confirm the file is the real one** — the v0.1.2 installer's SHA-256 is:
+  `CA01B352C3DCBAD0054342978541ECE0F8C8E7DD1E15B781CF5E08F40CCF1EC4`
+  Check it in PowerShell: `Get-FileHash .\Min-Max-Coach-0.1.2-setup.exe`
+- **Updates are cryptographically signed** — the app only installs updates signed with my key, so nobody can slip you a tampered build through the updater.
 - **What it does with your data:** nothing leaves your PC — no account, no telemetry, no uploads. See **[PRIVACY.md](PRIVACY.md)**.
 
 The source is closed (it's my own work), so there's some trust involved — I won't pretend otherwise. Code-signing, which removes the warning entirely, is on the list as the project grows.
