@@ -8,6 +8,8 @@ Real-time draft help, lane-matchup coaching, build paths, objective timers, and 
 
 **[💬 Join the Discord](https://discord.gg/RXK9YhKQGX)** — questions, feedback, and update news. The app updates itself silently, so what you install today keeps getting better every week.
 
+**The one-game challenge:** install it and play a single game. 3 MB, no account, nothing to configure — it connects by itself. If it doesn't make one call you hadn't thought of, uninstall it and you've lost four minutes. Most people don't uninstall it.
+
 ## See it
 
 **Champ select** — runes, summoners, starting items, and your game plan, the moment you hover a champion:
