@@ -8,6 +8,20 @@ Real-time draft help, lane-matchup coaching, build paths, objective timers, and 
 
 **[💬 Join the Discord](https://discord.gg/RXK9YhKQGX)** — questions, feedback, and update news. The app updates itself silently, so what you install today keeps getting better every week.
 
+## See it
+
+**Champ select** — runes, summoners, starting items, and your game plan, the moment you hover a champion:
+
+![Champ select coaching](screenshots/champ-select.png)
+
+**In game** — the live dashboard and overlay: your next move, objective timers, lane coaching, and the exact next buy:
+
+![In-game coaching](screenshots/in-game-coach.png)
+
+**After the game** — the Coach Report, a shareable recap that even tracks how often you follow the coach (it will absolutely call you out):
+
+![Coach Report](screenshots/coach-report.png)
+
 ## Why I built this
 
 I love this game, but I got tired of the tools around it. The best coaching info is locked behind monthly subscriptions. The popular overlays are heavy, ad-stuffed, and want you to create an account so they can harvest your data. And a few of them quietly put your account at risk by reading things they shouldn't.
