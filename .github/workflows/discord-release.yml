@@ -1,0 +1,50 @@
+name: Announce release on Discord
+
+# Fires every time a (non-draft) release is published on this repo — i.e. every
+# `gh release create` from RELEASING.md. Posts the release notes + a download
+# link to a Discord channel via a webhook, so you never hand-post again.
+#
+# One-time setup (see the pinned instructions):
+#   1. In Discord: channel settings → Integrations → Webhooks → New Webhook,
+#      copy its URL.
+#   2. In this repo: Settings → Secrets and variables → Actions → New secret,
+#      name it DISCORD_WEBHOOK, paste the URL.
+# Until the secret exists the job runs but skips cleanly.
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.release.prerelease }}
+    steps:
+      - name: Post to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          # Passed as env (not inlined into the script) so release notes can't
+          # inject shell commands.
+          VERSION: ${{ github.event.release.tag_name }}
+          NOTES: ${{ github.event.release.body }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then
+            echo "No DISCORD_WEBHOOK secret set yet — skipping the announcement."
+            exit 0
+          fi
+          payload=$(jq -n \
+            --arg content "🚀 **Min-Max Coach $VERSION is out** — it updates itself, so you'll have it next time you open the app." \
+            --arg title "What's new in $VERSION" \
+            --arg desc "$NOTES" \
+            --arg url "$RELEASE_URL" \
+            '{
+              content: $content,
+              embeds: [{
+                title: $title,
+                description: $desc,
+                url: $url,
+                color: 3066993
+              }]
+            }')
+          curl -sS -H "Content-Type: application/json" -X POST -d "$payload" "$WEBHOOK"
