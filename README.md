@@ -77,9 +77,9 @@ Everything runs locally on your machine. See **[PRIVACY.md](PRIVACY.md)**.
 Because the app is new and not yet code-signed, Windows SmartScreen shows an "unrecognized publisher" warning — that means *unrecognized*, not *unsafe*. New indie apps almost always trip it. Don't just take my word for it, though:
 
 - **VirusTotal** (scanned by ~70 antivirus engines): the v0.1.0 installer **[scanned clean](https://www.virustotal.com/gui/file/eca06e997fd2b1ec1b99e6c4535f32521b130953959c269c3482bf569ba280aa)** on every major engine — Microsoft, Kaspersky, Bitdefender, ESET, Sophos, CrowdStrike, Malwarebytes, and more. (One minor engine, SecureAge, flags unsigned apps by default — a known false positive.) You can drop any release's installer on virustotal.com yourself; it takes a minute.
-- **Confirm the file is the real one** — the v0.1.5 installer's SHA-256 is:
-  `720883ECBCF229EC48C4F0A5F01E1F58424958D65E9FB1C400B069F340C1071F`
-  Check it in PowerShell: `Get-FileHash .\Min-Max-Coach-0.1.5-setup.exe`
+- **Confirm the file is the real one** — the v0.1.6 installer's SHA-256 is:
+  `BFDD19C13572596A097F1FB4863C324C2E34E9D938E8DDD87A404D24F7FD5F5E`
+  Check it in PowerShell: `Get-FileHash .\Min-Max-Coach-0.1.6-setup.exe`
 - **Updates are cryptographically signed** — the app only installs updates signed with my key, so nobody can slip you a tampered build through the updater.
 - **What it does with your data:** nothing leaves your PC — no account, no telemetry, no uploads. See **[PRIVACY.md](PRIVACY.md)**.
 
