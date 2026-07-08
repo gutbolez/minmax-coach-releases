@@ -8,6 +8,8 @@ Real-time draft help, lane-matchup coaching, build paths, objective timers, and 
 
 **[💬 Join the Discord](https://discord.gg/RXK9YhKQGX)** — questions, feedback, and update news. The app updates itself silently, so what you install today keeps getting better every week.
 
+**[📖 Browse builds, runes & counters for every champion →](https://gutbolez.github.io/minmax-coach-data/)** — the current Diamond+ meta, refreshed daily. The app gives you all of it live in-game.
+
 **The one-game challenge:** install it and play a single game. 3 MB, no account, nothing to configure — it connects by itself. If it doesn't make one call you hadn't thought of, uninstall it and you've lost four minutes. Would be suprised if you uninstall it, especially as its only getting better.
 
 ## See it
